@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="81T-LegaWmgQyOv604GE">
+    <mxGraphModel dx="491" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ygqb2DC7TMielnnMWiam-4" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;shadow=1;">
+          <mxGeometry relative="1" x="0.6667" as="geometry">
+            <mxPoint x="485" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="&lt;h3&gt;&lt;font face=&quot;Times New Roman&quot;&gt;START&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="425" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-8" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Initialize Dataset&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;(StudyChat Cohort N=175)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="185" x="392.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-16" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Extract Early Features&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;(Assignments A1–A3)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="185" x="392.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-19" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontFamily=Times New Roman;" value="Input Fold Predictors&amp;nbsp;&lt;div&gt;(k=9 Dialogue Features)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="197.5" x="386.25" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-24" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="337.5" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-26" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-25">
+          <mxGeometry relative="1" x="0.0047" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Times New Roman;" value="Does Predicted Risk Match Ground Truth?" vertex="1">
+          <mxGeometry height="70" width="185" x="392.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-28" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Correct Classification (True Positive / Negative)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="135" x="270" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-29" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Misclassification&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;(False Positive / Negative)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="135" x="570" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-30" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;" target="Ygqb2DC7TMielnnMWiam-9">
+          <mxGeometry relative="1" x="-0.2191" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="670" />
+              <mxPoint x="260" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-37" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Aggregate Fold Metrics (F1-Macro, Bal Acc, MCC)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="135" x="417.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;textDirection=ltr;rotation=-90;" value="&lt;i&gt;Next CV Fold (k=1..5)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="185" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-41" edge="1" parent="1" source="Ygqb2DC7TMielnnMWiam-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="Ygqb2DC7TMielnnMWiam-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Select Best Model (Logistic Regression)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="135" x="417.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygqb2DC7TMielnnMWiam-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="&lt;h3&gt;&lt;font face=&quot;Times New Roman&quot;&gt;END&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="425" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

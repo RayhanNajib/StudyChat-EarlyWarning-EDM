@@ -1,0 +1,59 @@
+================================================================================
+TUGAS AKHIR DATA SCIENCE / EDUCATIONAL DATA MINING (EDM)
+DEPARTEMEN TEKNIK ELEKTRO DAN INFORMATIKA - UNIVERSITAS NEGERI MALANG
+================================================================================
+Nama Mahasiswa    : Muhammad Rayhan Najib
+NIM               : 240533600012
+Dosen Pembimbing  : Utomo Pujianto, S.Kom, M.Kom
+Topik Penelitian  : Early-Warning Classification of Academically at-Risk Students 
+                    Using ChatGPT Dialogue Patterns (StudyChat LAK 2026)
+================================================================================
+
+LINK REPOSITORY GITHUB:
+https://github.com/rayhannajib/StudyChat-EarlyWarning-EDM (Placeholder - isi link repo Anda nanti di sini)
+
+--------------------------------------------------------------------------------
+STRUKTUR FOLDER PENGUMPULAN:
+--------------------------------------------------------------------------------
+1_Laporan_Paper/
+   - 240533600012_Muhammad Rayhan Najib_PAPER_EDM.pdf (Naskah Paper LITE UM Final)
+   - 240533600012_Muhammad Rayhan Najib_PAPER_EDM.docx (Naskah Format Word)
+   - Paper_EDM_Rayhan_StudyChat.bib & .ris (Pustaka Sitasi Zotero)
+   - paper_figures/ (Seluruh aset visual beresolusi 300 DPI: Fig 1, 2, 3, 4)
+
+2_Web_Aplikasi/
+   - app.py (Entry point aplikasi Streamlit Decision Support System)
+   - run.bat (Skrip runner satu-klik untuk menjalankan web di Windows)
+   - requirements.txt (Daftar dependensi pustaka Python)
+   - README.md (Dokumentasi teknis aplikasi web)
+   - core/ & views/ (Arsitektur modular pemodelan, visualisasi, dan 7 menu UI)
+   - data/ (Dataset lokal pendukung inferensi)
+
+3_Dataset/
+   - cohort_features.csv (Dataset 175 mahasiswa dengan 8 fitur dialog awal & label target)
+   - studychat_cohort.json (Data mentah tuturan dialog interaksi ChatGPT)
+   - codebook_data_dictionary.csv (Kamus data ilmiah lengkap per variabel)
+   - PANDUAN_DATASET_STUDYCHAT.md (Panduan atribusi lisensi CC BY 4.0 LAK 2026)
+
+4_Hasil_Eksperimen/
+   - Hasil_Eksperimen_Rayhan.docx (Laporan log eksperimen lengkap format kating)
+   - Hasil_Eksperimen_Rayhan.pdf (Versi PDF siap cetak/baca)
+   - grafik_eksperimen/ (Grafik matriks konfusi, kurva ROC, histogram, feature importance)
+
+--------------------------------------------------------------------------------
+PETUNJUK MENJALANKAN WEB APLIKASI STREAMLIT:
+--------------------------------------------------------------------------------
+1. Buka folder '2_Web_Aplikasi'.
+2. Pastikan Python 3.10+ sudah terinstal di komputer.
+3. Klik ganda file 'run.bat' (atau jalankan terminal: streamlit run app.py).
+4. Browser akan otomatis membuka dashboard interaktif di: http://localhost:8501.
+
+--------------------------------------------------------------------------------
+INTEGRITAS METODOLOGI & PROTOKOL RISET:
+--------------------------------------------------------------------------------
+- Zero Data Leakage: Seluruh nilai tugas dan ujian mandiri dieksklusikan 100% dari 
+  ruang fitur prediktor. Prediksi murni menggunakan tuturan awal A1-A3.
+- Class Imbalance: Pembobotan frekuensi terbalik (class_weight='balanced') di dalam fold 
+  cross-validation; tidak menggunakan SMOTE global agar kovarians data tidak terdistorsi.
+- Validasi: Stratified 5-Fold Cross-Validation dengan metrik utama F1-Macro.
+================================================================================
