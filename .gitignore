@@ -25,38 +25,40 @@ wheels/
 venv/
 ENV/
 
-# Scratch & Temporary
+# Local Submission Folders & Documents (kept safely on local PC)
+Bundle_Tugas_Akhir_Rayhan_EDM/
+Data Science Tugas Akhir Kating/
+paper_figures/
 scratch/
 scratch_exp/
-*.tmp
-download_*.py
-export_js.py
-extract_studychat_webdata.py
-
-# Unrelated Course Materials & Large Downloads
-Data Mining 1 - Introduction.pdf
-Data Mining 2 - Data Understanding.pdf
-Data Mining 3 - Data Preprocessing.pdf
-Data Mining 4 - Classification.pdf
-Data Mining 5 - Evaluating Classifiers.pdf
-Data Mining 7 - Clustering.pdf
-Latihan_Soal_dan_Pembahasan_UTS_Data_Mining.docx
-Latihan_Soal_dan_Pembahasan_UTS_Data_Mining.pdf
-data science per 5.txt
-Data Science Per 8.txt
-data_mining_intro.txt
+*.docx
+*.pdf
 *.zip
 *.jpeg
 *.jpg
+*.tmp
+*.bib
+*.ris
+*.drawio
 Token*.txt
 data-science-20261019.json
-2503.07928v4.pdf
 
-# Other testbeds
+# Notes & Extra Scripts
+test_suite.py
+download_*.py
+export_js.py
+extract_studychat_webdata.py
+Analisis_*.md
+Penjelasan_*.md
+PANDUAN_DATASET_STUDYCHAT.md
+data science per 5.txt
+Data Science Per 8.txt
+data_mining_intro.txt
+
+# External Testbeds
 vocational_datamining_testbed/
 studychat_classic_testbed/
 Contoh Web TA/
-Data Science Tugas Akhir Kating/
 A Comprehensive Dataset on Computational Thinking Skills, Curiosity, and Student Engagement in Indonesian Vocational Schools Student Perspectives/
 Impact of Conversational Chatbots on Learning of University Students/
 StudyChat_Data/
